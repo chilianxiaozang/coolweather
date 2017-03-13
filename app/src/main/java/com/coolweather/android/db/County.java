@@ -1,14 +1,12 @@
 package com.coolweather.android.db;
 
-import android.content.ServiceConnection;
-
 import org.litepal.crud.DataSupport;
 
 /**
  * Created by zhide on 2017/3/13.
  */
 
-public class cityName extends DataSupport {
+public class County extends DataSupport {
     private int id;
     private String countyName;
     private String wetherId;
@@ -45,5 +43,4 @@ public class cityName extends DataSupport {
     public void setWetherId(String wetherId) {
         this.wetherId = wetherId;
     }
-
 }
